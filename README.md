@@ -1,7 +1,11 @@
 # Fieldwork
 
 A shared map for real-world Hide & Seek. Add answers as you play and see which
-areas remain possible. Built for, and tested during, a three-player trip in Austria.
+areas remain possible.
+
+Built quickly with AI assistance for a personal, three-player Hide & Seek trip
+in Austria. It worked well during our game, but hasn't been extensively tested
+beyond that setup. Expect rough edges.
 
 ![Desktop map with fictional radar and thermometer clues](docs/screenshots/desktop.png)
 
@@ -52,6 +56,11 @@ An independent fan-made tool, not affiliated with or endorsed by Jet Lag: The Ga
 No official cards or rulebook are included.
 
 ## Development
+
+The author credits OpenAI's GPT-6-Astra for the AI-assisted implementation,
+guided by the group's requirements and refined through two days of real-world
+playtesting. This was a practical one-off project, shared because others may
+find it useful.
 
 Plain JavaScript, Leaflet, Geoman and Turf; a Python standard-library API with SQLite.
 
