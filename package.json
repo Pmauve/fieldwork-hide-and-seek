@@ -1,0 +1,12 @@
+{
+  "name": "fieldwork-hide-and-seek",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test geometry.test.cjs features.test.cjs corridors.test.cjs",
+    "screenshots": "node scripts/screenshots.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.61.1"
+  }
+}

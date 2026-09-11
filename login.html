@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Fieldwork / Sign in</title><link rel="stylesheet" href="/login.css"></head>
+<body><main><div class="eyebrow">FIELDWORK / PRIVATE GAME</div><h1>Back to the<br>search.</h1><p>Sign in with the group password and the current code from your authenticator app.</p>
+<form id="login" name="login" action="/auth/login" method="post" autocomplete="on">
+<label for="username">Group</label><input id="username" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" value="players"><small>Shared login name for your password manager. No separate accounts.</small>
+<label for="password">Group password</label><input id="password" name="password" type="password" autocomplete="current-password" required maxlength="256">
+<label for="code">Authenticator code</label><input id="code" name="code" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" minlength="6" maxlength="6" placeholder="000000" required>
+<p id="error" role="alert" aria-live="polite"></p><button id="submit" type="submit">Open the map</button></form>
+<small>Save this site's address in your password manager. Sessions last up to 48 hours or until group access expires. If a friend just used the same code, wait for the next one. Everyone who signs in can view and edit all game maps.</small></main><script src="/login.js"></script></body></html>

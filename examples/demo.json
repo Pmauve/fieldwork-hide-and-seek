@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "rounds": [
+    {
+      "id": "demo-linz",
+      "name": "Demo / Linz",
+      "items": [
+        {"id": "demo-radar", "type": "radar", "a": {"lat": 48.2902, "lng": 14.2919}, "radius": 12, "answer": "hit", "enabled": true, "label": "Fictional example: inside 12 km of the station"},
+        {"id": "demo-thermometer", "type": "thermometer", "a": {"lat": 48.213, "lng": 14.279}, "b": {"lat": 48.2902, "lng": 14.2919}, "answer": "warmer", "enabled": true, "label": "Fictional example: warmer after travelling north"},
+        {"id": "demo-miss", "type": "radar", "a": {"lat": 48.3069, "lng": 14.2858}, "radius": 3, "answer": "miss", "enabled": true, "label": "Fictional example: outside the smaller circle"}
+      ]
+    },
+    {"id": "demo-next", "name": "Demo / Next round", "items": []}
+  ]
+}
